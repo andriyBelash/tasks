@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "tasks",
+    "slug": "tasks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Vector.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/todo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.belashandriy.tasks"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9548ba3-9752-44d4-8248-8d8640d6acfd"
+      }
+    }
+  }
+}
